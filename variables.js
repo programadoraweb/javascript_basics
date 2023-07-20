@@ -23,25 +23,3 @@ var tShirtSizes = [ "small","meddium" ,"Large" ,"X-Large"];
 // 3-Son case sensitive(Detecta mayusculas y minusculas)
 // 4- Suelen escribirse con camelCase.
 
-// OPERAR CON VARIABLES
-// tipos de operadores
-// +:suma
-// -:resta
-// /:division
-// *:multiplicacion
-// %:resto
-
-// ejemplos
-var num1 = 5;
-var num2 = 3;
-
-var suma = num1 + num2;
-var resta = num1 - num2;
-var mult = num1 * num2;
-var div = num1 / num2;
-
-//  FUNCIONES DE ENTRADA Y SALIDA EN JS
-console.log("La suma es: " + suma);
-console.log("La resta es: " + resta);
-console.log("La mult es: " + mult);
-console.log("La div es: " + div);
