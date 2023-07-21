@@ -1,6 +1,7 @@
 
-// VARIABLES - donde podemos almacenar tipos de datos
-// se declaran con la palabra 'x' y se asigna el valor con '='
+// VARIABLES - la variable se almacena temporalmente en la memoria RAM (que es la memoria variable)
+// Es donde podemos almacenar tipos de datos
+// ex. se declaran con la palabra 'x' y se asigna el valor con '='
 // tipo de dato numerico
 var x = 5;
 var y = 2.7;
@@ -16,7 +17,16 @@ console.log(texto2);
 var boolean = true;
 // tipo de array
 console.log(boolean);
+//
+var precioUnidad, cantidad, total;
+        //declaracion de 3 variables en 1 linea 
+        precioUnidad = 5;
+        cantidad = 100;
+        total= precioUnidad*cantidad;
+        alert('El importe toal de la compra es: ' + total + ' EUROS');
+
 var tShirtSizes = [ "small","meddium" ,"Large" ,"X-Large"];
+console.log(tShirtSizes);
 // Restricciones
 // 1-Los nombres empiezan por letras, underscore _ o simbolo de dolar $
 // 2-Los nombres de las variables no pueden tener expacios en blanco
