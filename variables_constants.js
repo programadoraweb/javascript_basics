@@ -33,14 +33,6 @@ console.log(tShirtSizes);
 // 3-Son case sensitive(Detecta mayusculas y minusculas)
 // 4- Suelen escribirse con camelCase.
 
-// OPERAR CON VARIABLES
-// tipos de operadores
-// +:suma
-// -:resta
-// /:division
-// *:multiplicacion
-// %:resto
-
 //Constantes
 const PI = 3.1415;
 console.log ( "El valor de PI es una constante, no cambia: " + PI);
